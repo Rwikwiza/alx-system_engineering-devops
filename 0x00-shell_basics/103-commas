@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -1v --group-directories-first | paste -sd,
+ls -1v --group-directories-first -A | paste -sd,
