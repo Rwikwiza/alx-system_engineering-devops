@@ -1,5 +1,2 @@
 #!/bin/bash
-
-# Print the absolute path of the current working directory
 echo $(cd "$(dirname "$0")"; pwd)
-
