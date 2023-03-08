@@ -1,2 +1,2 @@
 #!/bin/bash
-pwd
+DIR_PATH=$(cd $(dirname “${BASH_SOURCE:-$0}”) && pwd)
