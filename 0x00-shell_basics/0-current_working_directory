@@ -1,2 +1,5 @@
 #!/bin/bash
-DIR_PATH=$(cd $(dirname “${BASH_SOURCE:-$0}”) && pwd)
+
+# Print the absolute path of the current working directory
+echo $(cd "$(dirname "$0")"; pwd)
+
