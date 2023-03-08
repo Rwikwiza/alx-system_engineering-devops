@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -AFp1 | tr '\n' ',' | sed 's/,$/\n/' | sed 's/@//g;s/\*$//g;s/\///g'
+ls -1v --group-directories-first | paste -sd,
