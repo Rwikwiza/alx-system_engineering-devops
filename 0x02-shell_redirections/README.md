@@ -1,22 +1,17 @@
-Shell, I/O Redirections and filters
+Shell, I/O Redirections and filters \n
 
-Project done during Full Stack Software Engineering studies at ALX. It aims to learn about how to handle standard input and output and how to combine commands and filters with redirections in Shell.
+Project done during Full Stack Software Engineering studies at ALX. It aims to learn about how to handle standard input and output and how to combine commands and filters with redirections in Shell. \n
 
-Technologies
+Files \n
 
-Scripts written in Bash 4.3.11(1)
-Tested on Ubuntu 14.04 LTS
-Files
+All of the following files are scripts:\n
 
-All of the following files are scripts:
-
-Filename	Description
-0-hello_world	Prints "Hello, World", followed by a new line to the standard output
-1-confused_smiley	Displays a confused smiley "(Ôo)'
-2-hellofile	Displays the content of the /etc/passwdfile
-3-twofiles	Displays the content of /etc/passwd and /etc/hosts
-4-lastlines	Displays the last 10 lines of /etc/passwd
-5-firstlines	Displays the first 10 lines of /etc/passwd
+0-hello_world: Prints "Hello, World", followed by a new line to the standard outputOB
+1-confused_smiley	Displays a confused smiley "(Ôo)'OB
+2-hellofile	Displays the content of the /etc/passwdfileOB
+3-twofiles	Displays the content of /etc/passwd and /etc/hostsOB
+4-lastlines	Displays the last 10 lines of /etc/passwdOC
+5-firstlines	Displays the first 10 lines of /etc/passwdOB
 6-third_line	Displays the third line of the file iacta
 7-file	Creates a file named exactly \*\\'"Best School"\'\\*$\?\*\*\*\*\*:) containing the text Best School ending by a new line
 8-cwd_state	Writes into the file ls_cwd_content the result of the command ls -la.
